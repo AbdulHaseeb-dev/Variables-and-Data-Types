@@ -32,7 +32,29 @@ public class PracticeQuestion {
 
         // sc.close();
 
+        // Question 3 : Enter cost of 3 items from the user (using float data type) - a pencil, a pen and
+        // an eraser. You have to output the total cost of the items back to the user as their bill.
+        // (Add on : You can also try adding 18% gst tax to the items in the bill as an advanced problem)
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the cost of a Pencil");
+        float pencil = sc.nextFloat();
+        System.out.println("Enter the cost of a Pen");
+        float pen = sc.nextFloat();
+        System.out.println("Enter the cost of an Eraser");
+        float eraser = sc.nextFloat();
 
+        float Total_Cost = pencil + pen + eraser;
+
+        System.out.println("Total cost of stationary is :" + Total_Cost);
+
+        float GST = Total_Cost * 0.18f;
+
+        float  Total_Cost_After_Adding_Tax = Total_Cost + GST;
+        
+        System.out.println("Total cost of the stationary after 18% gst tax is : " + Total_Cost_After_Adding_Tax);
+
+        sc.close();
 
     }
 }
