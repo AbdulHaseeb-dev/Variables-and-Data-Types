@@ -22,15 +22,15 @@ public class PracticeQuestion {
 
         // Question 2 : In a program, input the side of a square.You have to output the area of the square.(Hint : area of a square is (side x side))
          
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Length");
-        int side = sc.nextInt();
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter Length");
+        // int side = sc.nextInt();
 
-        int Area_of_Square = side * side;
+        // int Area_of_Square = side * side;
 
-        System.out.println("Area of Square is : " + Area_of_Square);
+        // System.out.println("Area of Square is : " + Area_of_Square);
 
-        sc.close();
+        // sc.close();
 
 
 
